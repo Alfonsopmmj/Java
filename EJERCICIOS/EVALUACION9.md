@@ -73,3 +73,23 @@ imprimas la camisa que se está sacando.
 
 
            Tu código aqui
+           
+                import java.util.Stack;
+                public class Proyecto1 {
+                    public static void main(String[] args) {
+                    Stack<String> camisas = new Stack<>();
+                    camisas.push("CamisaAzul");
+                    camisas.push("CamisaVerde");
+                    camisas.push("CamisaRoja");
+
+                    System.out.println("La ultima camisa agregada fue: " + camisas.peek());
+
+                    while (!camisas.isEmpty()) {
+                      System.out.println("la camisa que se esta sacando es : " + camisas.pop());
+                    }
+                  }
+                }
+        
+           
+           
+           
