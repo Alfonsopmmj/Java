@@ -43,7 +43,7 @@ String username2 = "gigacoder";
           a. username1 == username2
       
    
-          d. username1.equals(username2)
+         
 
 
 5. ¿Qué operador se puede usar para concatenar dos strings? (Valor 1 punto)
