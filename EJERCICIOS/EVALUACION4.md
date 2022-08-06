@@ -9,22 +9,21 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 1. El siguiente código contiene una clase Pedido para realizar un seguimiento de los
 envíos de compras a minoristas. (Valor 5 puntos)
 
-                  public class Pedido {
-                    public static void main(String[] args) {
-                      double costoArticulo = 30.99;
-                      boolean listoEviar=false;
-                      
-                      if(costoArticulo > 24){
-                           System.out.println("El valor del articulo es alto");
-		      }
-                      
-                      if(listoEnviar==true){
-		           System.out.println("Enviado");
-                      } else{
-                           System.out.println("Pedido no listo");
-                      }
-                    }
-                  }
+		  public class Pedido {
+		    public static void main(String[] args) {
+			      double costoArticulo = 30.99;
+			      boolean listoEviar=false;
+
+			      if(costoArticulo > 24){
+				   System.out.println("El valor del articulo es alto");
+			      }
+			      if(listoEnviar==true){
+				   System.out.println("Enviado");
+			      } else{
+				   System.out.println("Pedido no listo");
+			      }
+			 }
+		     }
 
 a. Escribe una declaración usando if que imprima ¡El valor del artículo es alto!
 cuando costoArticulo es mayor que 24.00.
@@ -66,10 +65,10 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
                   }
 
                   a= a + 1;
-                }
+                 }
 
-            }
-        }
+              }
+         }
 
 
 ● Serie de Fibonacci
