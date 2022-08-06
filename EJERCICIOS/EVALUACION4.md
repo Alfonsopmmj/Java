@@ -14,14 +14,14 @@ envíos de compras a minoristas. (Valor 5 puntos)
                       double costoArticulo = 30.99;
                       boolean listoEviar=false;
                       
-                     	if(costoArticulo > 24){
-			                    System.out.println("El valor del articulo es alto");
-		                  }
+                      if(costoArticulo > 24){
+                           System.out.println("El valor del articulo es alto");
+		      }
                       
-		                  if(listoEnviar==true){
-		                      System.out.println("Enviado");
+                      if(listoEnviar==true){
+		           System.out.println("Enviado");
                       } else{
-                          System.out.println("Pedido no listo");
+                           System.out.println("Pedido no listo");
                       }
                     }
                   }
