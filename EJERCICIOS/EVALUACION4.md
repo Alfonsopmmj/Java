@@ -13,6 +13,16 @@ envíos de compras a minoristas. (Valor 5 puntos)
                     public static void main(String[] args) {
                       double costoArticulo = 30.99;
                       boolean listoEviar=false;
+                      
+                     	if(costoArticulo > 24){
+			                    System.out.println("El valor del articulo es alto");
+		                  }
+                      
+		                  if(listoEnviar==true){
+		                      System.out.println("Enviado");
+                      } else{
+                          System.out.println("Pedido no listo");
+                      }
                     }
                   }
 
@@ -38,6 +48,29 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 ● Serie de números impares positivos
 
 1, 3, 5, 7, 9, 11, 13, 15, 17, .... así sucesivamente.
+
+        public class serieDenumImpares{
+            public static void main(String[] args){
+
+                int a = 1;
+                int b = 2;
+                int residuo;
+                int num = 30;
+
+                while ( a <= num ){
+
+                  residuo = a % b;
+
+                  if(residuo==1){
+                    System.out.print(a + ", ");
+                  }
+
+                  a= a + 1;
+                }
+
+            }
+        }
+
 
 ● Serie de Fibonacci
 
