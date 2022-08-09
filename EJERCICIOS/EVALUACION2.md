@@ -88,22 +88,23 @@ c. Escribe la salida.
       James Gosling
       1995
 
-          
-          ![imagen](https://user-images.githubusercontent.com/107777143/183556095-e9a527e1-9bf1-46cd-b61c-97ea297af42c.png)
+         RESPUESTA
+         
+         public class Creator{
+             public static void main(String[] args) {
+                 String nombre = "James Gosling";
+                 int yearCreado = 1995;
 
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+                 System.out.println(nombre);
+                 System.out.println(yearCreado);
+             }
+         }
 
+         Output
+
+         java -cp /tmp/iKM5dcrTRg Creator
+         James Gosling
+         1995
 
 
 
@@ -134,6 +135,31 @@ c. Escribe la salida.
 
       Salida:
       6
+      
+      
+         RESPUESTA
+         
+         //Esta es la declaracion de la clase
+         public class ContComentarios {
+             //Este es el metodo main que se ejecuta cuando compilas
+             public static void main(String[] args) {
+                 //Aqui es donde vas a definir tu variable
+                 int numComentarios;
+                 numComentarios = 6;
+                 //Aqui es donde vas a imprimir tu variable
+                 System.out.println(numComentarios);
+             }
+             //Este es el final de la class
+         }
+         //Esto esta afuera de la clase
+
+
+         Output
+
+         java -cp /tmp/SLp7qC8PpD ContComentarios
+         6
+      
+      
 
 10. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es CuotaMercado.java: (Valor 2 puntos)
@@ -155,6 +181,24 @@ c. Escribe la salida.
 
                 Salida:
                 70.97
+                
+         RESPUESTA
+         
+         public class CuotaMercado {
+             public static void main(String[] args) {
+                 double androidCuota;
+                 androidCuota=70.97;
+                 System.out.println(androidCuota);
+             }
+         }
+
+
+         Output
+
+         java -cp /tmp/FP2j9WjTXC CuotaMercado
+         70.97
+
+                
 
 11. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Booleans.java: (Valor 2 puntos)
@@ -174,6 +218,26 @@ c. Escribe la salida.
 
                 Salida:
                 70.97
+                
+
+         RESPUESTA
+         
+         public class Booleans {
+             public static void main(String[] args) {
+                 boolean intsPuedeAlmacenarDecimales;
+                 intsPuedeAlmacenarDecimales = false;
+                 System.out.println(intsPuedeAlmacenarDecimales);
+             }
+         }
+
+
+
+         Output
+
+         java -cp /tmp/FP2j9WjTXC Booleans
+         false
+
+                
 
 12. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Char.java: (Valor 2 puntos)
@@ -196,6 +260,25 @@ d. Escribe la salida.
                 Salida:
                 M
 
+         RESPUESTA
+
+         public class Char {
+             public static void main(String[] args) {
+                 //Alfonso
+                 char primerLetra;
+                 primerLetra='A';
+                 System.out.println(primerLetra);
+             }
+         }
+
+
+         Output
+
+         java -cp /tmp/FP2j9WjTXC Char
+         A
+
+
+
 13. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es Poema.java: (Valor 2 puntos)
 
@@ -214,6 +297,25 @@ c. Escribe la salida.
 
                 Salida:
                 Aquí no suceden cosas de mayor trascendencia que las rosas.
+
+
+         RESPUESTA
+
+         public class Poema {
+             public static void main(String[] args) {
+                 String verso;
+                 verso = “Aqui no suceden cosas de mayor trascendencia que las rosas.”;
+                 System.out.println(verso);
+             }
+         }
+
+
+         Output
+
+         java -cp /tmp/FP2j9WjTXC Poema
+         Aqui no suceden cosas de mayor trascendencia que las rosas.
+
+
 
 14. Considera el código del siguiente programa escrito en Java cuyo nombre del
 archivo es MiPerfil.java: (Valor 3 puntos)
@@ -253,3 +355,31 @@ g. Escribe la salida.
               500000.01
               n
               true
+
+
+         RESPUESTA
+
+         public class MyProfile {
+             public static void main(String[] args) {
+                 String nombre = "Alfonso";
+                 int edad = 55;
+                 double salarioDeseado = 30000.01;
+                 char genero = 'm';
+                 boolean buscandoTrabajo = true;
+                 System.out.println(nombre + "\n" + edad + "\n" + salarioDeseado + "\n " + genero + "\n" + buscandoTrabajo);
+             }
+         }
+
+
+         Output
+
+         java -cp /tmp/FP2j9WjTXC MyProfile
+         Alfonso
+         55
+         30000.01
+          m
+         true
+
+
+
+
