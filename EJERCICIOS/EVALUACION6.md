@@ -24,35 +24,39 @@ clara, según sea el caso.
 ![image](https://user-images.githubusercontent.com/91554777/176980222-c9ac9e57-a50d-4329-9db6-b2b1c02aeae4.png)
 
       a. ¿Qué tipo de dato tiene el arreglo?
+         R= Double (decimal)
       b. ¿Qué valor se encuentra en la posición con el índice 4?
+         R= 8.3
       c. ¿Cuál es el rango de índices del arreglo?
+         R= Del 0 al 9 (io, i1, i2, i3, i4, i5, i6, i7, i8, i9)
+      
       
  4. ¿Qué tipo de ciclo se adapta fácilmente para el manejo de un arreglo? (Valor 1
 punto)
 
-      a. Do - While
+     
       b. For
-      c. While
+    
       
  5. ¿Cómo se le conoce a los arreglos unidimensionales? (Valor 1 punto)
  
-        a. Matriz
-        b. Contador
+          
         c. Vector
+   
    
 6. Un arreglo bidimensional es aquel que consta de: (Valor 1 punto)
 
-        a. Una columna
-        b. n columnas
+ 
         c. m filas y n columnas
+        
         
 7. Sea un arreglo vector[] conformado por 10 elementos, ¿Qué muestra si se escribe
 en el código vector[10]? (Valor 1 punto)
 
-      a. Nada.
-      b. Todo el contenido.
+       
       c. Lo que tengo en la posición 10 de mi arreglo.
-      
+  
+  
 8. Si se ejecuta el siguiente código, ¿Qué imprime la línea 5 y la línea 7? (Valor 2
 puntos)
 
@@ -64,30 +68,8 @@ puntos)
       Galletas de chocolate 15.50
       Refresco 34.70
 
-      b. Lista de productos
-      Paleta 2.50
-      Lista de productos
-      Papas 14.00
-      Lista de productos
-      Galletas de chocolate 15.50
-      Lista de productos
-      Refresco 34.70
 
-      c. Lista de productos
-      Paleta
-      Papas
-      Galletas de chocolate
-      Refresco
-      2.50
-      14.00
-      15.50
-      34.70
 
-      d. Paleta 2.50
-      Papas 14.00
-      Galletas de chocolate 15.50
-      Refresco 34.70
-      Lista de productos
     
  9. Crea un programa en java considerando las siguientes instrucciones: (Valor 2
 puntos)
@@ -98,3 +80,19 @@ puntos)
       arreglo en la posición “número de posición” tiene el número “imprimir el
       número que se encuentre en esa posición”.
       i. Ejemplo. El arreglo en la posición 2 tiene el número 4.
+
+
+        public class ArregloUnidNumEnteros{
+
+                public static void main(String[] args){
+
+                        int[] numeros = {12, 10, 4, 24, 5, 9};
+
+                        for(int i= 0; i<6; i=i+1){
+                                System.out.println("El arreglo en la posicion " + i + " tiene el numero " + numeros[i]);
+                        }
+                }
+        }
+
+
+
