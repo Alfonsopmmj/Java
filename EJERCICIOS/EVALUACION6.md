@@ -8,16 +8,23 @@ Indicaciones: Pedir responder cada una de las preguntas de manera acertada, brev
 clara, según sea el caso.
 
 1. ¿Qué es un arreglo? (Valor 1 punto)
-
-        a. Datos o valores en un arreglo
-        b. Son colecciones de variables de un mismo tipo que se referencian utilizando
-        un nombre común.
+    
+       
         c. Conjunto de variables del mismo tipo cuyo acceso se realiza por índice
         
+
+
 2. De la siguiente ilustración de un arreglo, coloca los elementos según corresponda.
 (Valor 1 punto)
 
-![image](https://user-images.githubusercontent.com/91554777/176980202-f705e695-3175-47eb-8e54-5c2cfd5ae148.png)
+
+
+![imagen](https://user-images.githubusercontent.com/107777143/185739615-36d42d18-f594-4c23-b34e-33b8f9b1db5b.png)
+
+
+
+
+
 
 3. Tomando el siguiente arreglo, contesta las siguientes preguntas: (Valor 2 puntos)
 
@@ -54,7 +61,7 @@ punto)
 en el código vector[10]? (Valor 1 punto)
 
        
-      c. Lo que tengo en la posición 10 de mi arreglo.
+      a. Nada.
   
   
 8. Si se ejecuta el siguiente código, ¿Qué imprime la línea 5 y la línea 7? (Valor 2
@@ -82,6 +89,8 @@ puntos)
       i. Ejemplo. El arreglo en la posición 2 tiene el número 4.
 
 
+        RESPUESTA
+
         public class ArregloUnidNumEnteros{
 
                 public static void main(String[] args){
@@ -94,5 +103,15 @@ puntos)
                 }
         }
 
+
+        SALIDA:
+
+        java -cp /tmp/VrTIX5PFj5 ArregloUnidNumEnteros
+        El arreglo en la posicion 0 tiene el numero 12
+        El arreglo en la posicion 1 tiene el numero 10
+        El arreglo en la posicion 2 tiene el numero 4
+        El arreglo en la posicion 3 tiene el numero 24
+        El arreglo en la posicion 4 tiene el numero 5
+        El arreglo en la posicion 5 tiene el numero 9
 
 
