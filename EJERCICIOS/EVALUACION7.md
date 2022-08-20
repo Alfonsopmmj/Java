@@ -8,21 +8,21 @@ clara, según sea el caso.
 
 1. La Programación Orientada a Objetos es: (Valor 1 punto)
 
-        a. Un paradigma que se basa en el uso de estructuras.
-        b. Un paradigma de orientación nula.
+       
+        
         c. Un paradigma que se basa en el uso de objetos.
       
 2. Se refieren a características principalmente físicas y de estado de un objeto: (Valor 1 punto)
 
-        a. Métodos
+   
         b. Atributos
-        c. Objetos
+        
 
 3. Sirve para derivar de una clase ya existente a otra clase: (Valor 1 punto)
 
         a. Herencia
-        b. Polimorfismo
-        c. Métodos
+       
+      
         
 4. De las siguientes opciones, selecciona las ventajas de la Programación Orientada a Objetos: (Valor 1 punto)
 
@@ -33,25 +33,28 @@ clara, según sea el caso.
         
 5. Las clases normalmente cuentan con: (Valor 1 punto)
 
-        a. Nombre de clase, herencia y atributos.
-        b. Nombre de clase, métodos y herencia.
+
+   
         c. Nombre de clase, atributos y métodos.
         
 6. En programación, se utiliza para modelar un conjunto de objetos: (Valor 1 punto)
 
-        a. Plantilla
+    
         b. Clase
-        c. Métodos
+    
         
 7. ¿Qué son los métodos?
 
-        a. Las propiedades presentes en un objeto.
+      
         b. Las operaciones realizables de un objeto.
-        c. Los modelos para la creación de objetos.
+   
         
 8. Identifica las partes de una clase:
 
 ![image](https://user-images.githubusercontent.com/91554777/180586095-9353e40d-fa61-4852-aa52-8e59dc773efd.png)
+
+![imagen](https://user-images.githubusercontent.com/107777143/185736242-c450ba19-bf81-43dc-9763-75ff74ddbc71.png)
+
 
 9. Deberás crear un programa que forme parte de un módulo para el sistema de una
 estética de perros. El programa deberá de contener lo siguiente: (Valor 2 puntos)
@@ -74,5 +77,48 @@ siguiente procedimiento:
   v. Imprimir la cantidad de perros que se encuentran en la estética con el
   siguiente mensaje: Perros actuales en la estética: “Número de
   perros”.
+  
+  
+   
+        RESPUESTA
 
-            TU CODIGO AQUI
+        Timport java.util.ArrayList;
+
+        //Crear la clase RecibeMascota
+        class RecibeMascota{
+
+                //Crear atributos de la clase RecibeMascota
+                String nombrePerro;
+                int edad;
+                String raza;
+                String tamano;
+                String nombreDueno;
+
+                //Crear el metodo main que contiene el codigo
+                public static void main(String[] ars){
+
+                        // Creamos un arreglo dinamico de la clase RecibeMascota
+                        ArrayList<RecibeMascota> perrosActuales = new ArrayList();
+
+                        // Creamos un objeto de la clase RecibeMascota
+                        RecibeMascota miEstetica = new RecibeMascota();
+
+                        //Asignar valores a los atributos de la clase RecibeMascota
+                        miEstetica.nombrePerro = "Mancha";
+                        miEstetica.edad = 4;
+                        miEstetica.raza = "ChowChow";
+                        miEstetica.tamano = "Mediano";
+                        miEstetica.nombreDueno = "Pedro";
+
+                        //Agregar el objeto creado miEstetica al arreglo
+                        perrosActuales.add(miEstetica);
+
+                        //Imprimir la cantidad de perros en la Estetica
+                        System.out.println("Perros actuales en la estetica: " + perrosActuales.size());
+
+
+                }
+        }
+        
+        
+        
