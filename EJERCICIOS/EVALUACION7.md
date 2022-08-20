@@ -51,9 +51,11 @@ clara, según sea el caso.
         
 8. Identifica las partes de una clase:
 
-![image](https://user-images.githubusercontent.com/91554777/180586095-9353e40d-fa61-4852-aa52-8e59dc773efd.png)
 
-![imagen](https://user-images.githubusercontent.com/107777143/185736242-c450ba19-bf81-43dc-9763-75ff74ddbc71.png)
+
+![imagen](https://user-images.githubusercontent.com/107777143/185736816-739e8d37-5c5a-4e27-854d-cc3f57bb2464.png)
+
+
 
 
 9. Deberás crear un programa que forme parte de un módulo para el sistema de una
@@ -119,6 +121,14 @@ siguiente procedimiento:
 
                 }
         }
+        
+       SALIDA
+       
+       java -cp /tmp/VrTIX5PFj5 RecibeMascota
+       Perros actuales en la estetica: 1
+        
+        
+        
         
         
         
