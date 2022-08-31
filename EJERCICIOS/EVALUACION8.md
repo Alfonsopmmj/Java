@@ -23,8 +23,8 @@ String cadena = "hola MUNDO";
 System.out.println(cadena.toLowerCase());
     
     a. hola mundo
-    b. HOLA MUNDO
-    c. HOLA mundo
+
+
     
 3. De las siguientes dos líneas de código, ¿Cuál será el resultado de aplicar ese
 método? (Valor 1 punto)
@@ -33,9 +33,9 @@ String cadena = "hola MUNDO";
 
 System.out.println(cadena.toUpperCase());
 
-      a. hola mundo
+
       b. HOLA MUNDO
-      c. HOLA mundo
+
       
 4. De las siguientes dos líneas de código, ¿Cuál será el resultado de aplicar ese
 método? (Valor 1 punto)
@@ -45,8 +45,8 @@ String cadena = new String("Hola mundo");
 System.out.println("El tamaño de " + cadena + " es de " + cadena.length() + "caracteres");
 
       a. El tamaño de Hola mundo es de 10 caracteres
-      b. El tamaño de Cadena es de 10 caracteres
-      c. El tamaño de Hola mundo es de 9 caracteres
+
+ 
       
 5. Crea el código en java considerando las siguientes instrucciones: (Valor 3 puntos)
 
@@ -71,4 +71,46 @@ System.out.println("El tamaño de " + cadena + " es de " + cadena.length() + "ca
     h. Finalmente, imprimir el mensaje Tu nombre tiene “Número de caracteres”
     caracteres.
     
-        tu codigo aqui
+        
+        
+        RESPUESTA
+        
+        import java.util.Scanner;
+
+        public class Usuario{
+            public static void main(String[] args){
+
+                Scanner datos = new Scanner(System.in);
+                String nombre;
+                int edad;
+
+                System.out.println("Ingresa tu nombre completo: ");
+                nombre = datos.nextLine();
+                System.out.println("Ingresa tu edad: ");
+                edad = datos.nextInt();
+
+                if(edad >= 18 ){
+                    System.out.println("Tu nombre es " + nombre + " tienes " + edad + " a\u00f1os y eres mayor de edad");
+                }	else {
+                        System.out.println("Tu nombre es " + nombre + " tienes " + edad + " a\u00f1os y eres menor de edad");
+                    }
+
+                int numcaracteres = nombre.length();
+
+                System.out.println("Tu nombre tiene: " + numcaracteres + " caracteres");
+
+            }
+
+        }
+        
+        Output
+
+        java -cp /tmp/RPqxGnAHIc Usuario
+        Ingresa tu nombre completo: 
+        Alfonso Sanchez Alfaro
+        Ingresa tu edad: 
+        50
+        Tu nombre es Alfonso Sanchez Alfaro tienes 50 a?os y eres mayor de edad
+        Tu nombre tiene: 22 caracteres
+        
+      
